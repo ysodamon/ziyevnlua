@@ -1,0 +1,16 @@
+return {
+    ["VIP-KEY-123"] = {
+        type = "VIP",
+        expiry = "2027-12-31",
+        valid = true,
+        max_devices = 5,
+        SLOT = "1"
+    },
+    ["BLOCKED"] = {
+        type = "BLOCKED",
+        expiry = "2026-12-31",
+        valid = false,
+        max_devices = 1,
+        SLOT = "0"
+    }
+}
